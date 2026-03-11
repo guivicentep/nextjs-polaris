@@ -9,7 +9,7 @@ import {
 } from 'convex/react'
 import { ConvexProviderWithClerk } from 'convex/react-clerk'
 import { AuthLoadingView } from '@/features/auth/components/auth-loading-view'
-import { UnauthenticatedView } from '@/features/auth/components/unaunthenticated-view'
+import { UnauthenticatedView } from '@/features/auth/components/unauthenticated-view'
 import { ThemeProvider } from './theme-provider'
 
 const convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL!)
